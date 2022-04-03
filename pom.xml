@@ -6,5 +6,6 @@
   <packaging>pom</packaging>
   <modules>
   	<module>jclyzx-job-springboot</module>
+  	<module>jclyzx-job-quartz</module>
   </modules>
 </project>
