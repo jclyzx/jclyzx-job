@@ -1,0 +1,3 @@
+INSERT INTO `sys_quartz_job` VALUES ('5b3d2c087ad41aa755fc4f89697b01e7', 'admin', '2019-04-11 19:04:21', 0, 'admin', '2020-05-02 15:48:48', 'org.jeecg.modules.message.job.SendMsgJob', '0/50 * * * * ? *', NULL, NULL, -1);
+INSERT INTO `sys_quartz_job` VALUES ('a253cdfc811d69fa0efc70d052bc8128', 'admin', '2019-03-30 12:44:48', 0, 'admin', '2022-03-10 17:00:05', 'org.jeecg.modules.quartz.job.SampleJob', '0 0 0 * * ?', NULL, NULL, -1);
+INSERT INTO `sys_quartz_job` VALUES ('df26ecacf0f75d219d746750fe84bbee', 'admin', '2019-03-30 12:44:48', 0, 'admin', '2020-05-02 15:40:35', 'org.jeecg.modules.quartz.job.SampleParamJob', '0/1 * * * * ?', 'scott', '带参测试 后台将每隔1秒执行输出日志', -1);
