@@ -7,7 +7,10 @@
 #### Software Architecture
 jclyzx-job  parent   
 ├──jclyzx-job-springboot  -- springboot General tasks
-
+├──jclyzx-job-quartz  -- quartz
+├──jclyzx-job-xxljob  -- xxljob
+   ───jclyzx-job-xxljob-admin  -- Scheduler
+   ───jclyzx-job-xxljob-executor  -- executor
 
 
 #### Instructions
