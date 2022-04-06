@@ -5,13 +5,13 @@
     <artifactId>jclyzx-job</artifactId>
     <version>1.0.0</version>
   </parent>
-  <artifactId>jclyzx-job-springboot</artifactId>
+  <artifactId>jclyzx-job-xxljob</artifactId>
   
+  <packaging>pom</packaging>
   <properties>
 		<spring-boot.version>2.4.2</spring-boot.version>
   </properties>
-  
-	<dependencyManagement>
+  <dependencyManagement>
 		<dependencies>
 			<dependency>
 				<groupId>org.springframework.boot</groupId>
@@ -23,10 +23,9 @@
 		</dependencies>
 	</dependencyManagement>
 	
-	<dependencies>
-		<dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-	</dependencies>
+  
+  <modules>
+  	<module>jclyzx-job-xxljob-admin</module>
+  	<module>jclyzx-job-xxljob-executor</module>
+  </modules>
 </project>

@@ -13,5 +13,6 @@
   <modules>
   	<module>jclyzx-job-springboot</module>
   	<module>jclyzx-job-quartz</module>
+  	<module>jclyzx-job-xxljob</module>
   </modules>
 </project>

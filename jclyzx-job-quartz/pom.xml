@@ -6,9 +6,11 @@
     <version>1.0.0</version>
   </parent>
   <artifactId>jclyzx-job-quartz</artifactId>
- 	<properties>
+  
+  <properties>
 		<spring-boot.version>2.4.2</spring-boot.version>
-	</properties>
+  </properties>
+  
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

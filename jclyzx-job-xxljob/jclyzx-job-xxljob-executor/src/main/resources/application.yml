@@ -1,0 +1,19 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /xxl-job-admin
+xxl:
+  job:
+    login:
+      username: admin
+      password: 123456
+    accessToken:
+    admin:
+      addresses: http://127.0.0.1:9080/xxl-job-admin
+    executor:
+      appname: xxl-job-executor-sample
+      address:
+      ip:
+      port: 9999
+      logpath: /data/applogs/xxl-job/jobhandler
+      logretentiondays: 30
