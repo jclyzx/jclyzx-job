@@ -6,11 +6,11 @@
 jclyzx-job 架构  
 
 jclyzx-job  根项目  
-├──jclyzx-job-springboot  -- springboot普通定时任务 
-├──jclyzx-job-quartz  -- quartz定时任务 
-├──jclyzx-job-xxljob  -- xxljob定时任务 
-   ───jclyzx-job-xxljob-admin  -- 调度器
-   ───jclyzx-job-xxljob-executor  -- 执行器
+├──jclyzx-job-springboot  -- springboot普通定时任务  
+├──jclyzx-job-quartz  -- quartz定时任务  
+├──jclyzx-job-xxljob  -- xxljob定时任务  
+   ───jclyzx-job-xxljob-admin  -- 调度器  
+   ───jclyzx-job-xxljob-executor  -- 执行器  
 
 #### 介绍
 
